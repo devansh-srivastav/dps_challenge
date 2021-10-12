@@ -27,6 +27,6 @@ async def home():
     return HTMLResponse(content=body, status_code=200)
 
 
-@app.get('/prediction')
+@app.post('/prediction')
 async def get_result(year: str, month: str):
     return json.loads(get_prediction(year, month).to_json(orient='records'))[0]
