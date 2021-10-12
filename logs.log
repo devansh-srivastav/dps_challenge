@@ -2920,3 +2920,55 @@ NameError: name 'prep_pipe' is not defined
 2021-10-12 22:44:39,127:INFO:Preloading libraries
 2021-10-12 22:44:51,682:INFO:Initializing load_model()
 2021-10-12 22:44:51,682:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:45:04,648:INFO:Initializing load_model()
+2021-10-12 22:45:04,648:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:45:07,260:INFO:Initializing predict_model()
+2021-10-12 22:45:07,260:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:45:07,260:INFO:Checking exceptions
+2021-10-12 22:45:07,260:INFO:Preloading libraries
+2021-10-12 22:45:55,347:INFO:Initializing load_model()
+2021-10-12 22:45:55,348:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:47:34,809:INFO:Initializing load_model()
+2021-10-12 22:47:34,809:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:49:10,567:INFO:Initializing load_model()
+2021-10-12 22:49:10,567:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:49:47,979:INFO:Initializing load_model()
+2021-10-12 22:49:47,980:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:50:08,434:INFO:Initializing load_model()
+2021-10-12 22:50:08,434:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:51:15,818:INFO:Initializing load_model()
+2021-10-12 22:51:15,818:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:51:53,708:INFO:Initializing load_model()
+2021-10-12 22:51:53,708:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:52:25,971:INFO:Initializing load_model()
+2021-10-12 22:52:25,971:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:52:32,044:INFO:Initializing load_model()
+2021-10-12 22:52:32,044:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
