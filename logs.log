@@ -2578,3 +2578,345 @@ NameError: name 'prep_pipe' is not defined
                                                  warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
 2021-10-12 22:09:58,388:INFO:Checking exceptions
 2021-10-12 22:09:58,388:INFO:Preloading libraries
+2021-10-12 22:16:23,509:INFO:Initializing predict_model()
+2021-10-12 22:16:23,509:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:16:23,509:INFO:Checking exceptions
+2021-10-12 22:16:23,509:INFO:Preloading libraries
+2021-10-12 22:28:24,885:INFO:Initializing load_model()
+2021-10-12 22:28:24,885:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:28:55,947:INFO:Initializing predict_model()
+2021-10-12 22:28:55,947:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:28:55,947:INFO:Checking exceptions
+2021-10-12 22:28:55,947:INFO:Preloading libraries
+2021-10-12 22:29:15,874:INFO:Initializing predict_model()
+2021-10-12 22:29:15,875:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:29:15,875:INFO:Checking exceptions
+2021-10-12 22:29:15,875:INFO:Preloading libraries
+2021-10-12 22:29:23,169:INFO:Initializing predict_model()
+2021-10-12 22:29:23,169:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:29:23,170:INFO:Checking exceptions
+2021-10-12 22:29:23,170:INFO:Preloading libraries
+2021-10-12 22:33:25,168:INFO:Initializing load_model()
+2021-10-12 22:33:25,168:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:33:33,918:INFO:Initializing load_model()
+2021-10-12 22:33:33,918:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:33:43,278:INFO:Initializing predict_model()
+2021-10-12 22:33:43,279:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:33:43,279:INFO:Checking exceptions
+2021-10-12 22:33:43,279:INFO:Preloading libraries
+2021-10-12 22:40:56,689:INFO:Initializing load_model()
+2021-10-12 22:40:56,689:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:40:59,653:INFO:Initializing predict_model()
+2021-10-12 22:40:59,653:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:40:59,653:INFO:Checking exceptions
+2021-10-12 22:40:59,653:INFO:Preloading libraries
+2021-10-12 22:41:39,074:INFO:Initializing load_model()
+2021-10-12 22:41:39,074:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:41:41,949:INFO:Initializing predict_model()
+2021-10-12 22:41:41,949:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:41:41,949:INFO:Checking exceptions
+2021-10-12 22:41:41,949:INFO:Preloading libraries
+2021-10-12 22:42:39,462:INFO:Initializing load_model()
+2021-10-12 22:42:39,462:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:42:42,570:INFO:Initializing predict_model()
+2021-10-12 22:42:42,570:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:42:42,570:INFO:Checking exceptions
+2021-10-12 22:42:42,570:INFO:Preloading libraries
+2021-10-12 22:43:17,326:INFO:Initializing load_model()
+2021-10-12 22:43:17,326:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:43:34,159:INFO:Initializing load_model()
+2021-10-12 22:43:34,159:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:43:43,256:INFO:Initializing load_model()
+2021-10-12 22:43:43,256:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:43:46,829:INFO:Initializing predict_model()
+2021-10-12 22:43:46,830:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:43:46,830:INFO:Checking exceptions
+2021-10-12 22:43:46,830:INFO:Preloading libraries
+2021-10-12 22:44:36,308:INFO:Initializing load_model()
+2021-10-12 22:44:36,308:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
+2021-10-12 22:44:39,127:INFO:Initializing predict_model()
+2021-10-12 22:44:39,127:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      numerical_features=['JAHR', 'MONAT'],
+                                      target='Sum')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                                                 criterion='mse',
+                                                 max_depth=None,
+                                                 max_features='auto',
+                                                 max_leaf_nodes=None,
+                                                 max_samples=None,
+                                                 min_impurity_decrease=0.0,
+                                                 min_impurity_split=None,
+                                                 min_samples_leaf=1,
+                                                 min_samples_split=2,
+                                                 min_weight_fraction_leaf=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 oob_score=False,
+                                                 random_state=2471,
+                                                 regressor=RandomForestRegressor(n_jobs=-1,
+                                                                                 random_state=2471),
+                                                 verbose=0,
+                                                 warm_start=False)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 22:44:39,127:INFO:Checking exceptions
+2021-10-12 22:44:39,127:INFO:Preloading libraries
+2021-10-12 22:44:51,682:INFO:Initializing load_model()
+2021-10-12 22:44:51,682:INFO:load_model(model_name=model_for_dps, platform=None, authentication=None, verbose=True)
